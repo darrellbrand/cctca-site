@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About CCTCA</h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-8">
-          Central Coast Tech & Career Academy (CCTCA) is a mission-driven nonprofit based in California's Central Coast, dedicated to bridging the digital divide through inclusive workforce development.
+          Central Coast Tech & Career Academy (CCTCA) is a mission-driven nonprofit based in California&apos Central Coast, dedicated to bridging the digital divide through inclusive workforce development.
         </p>
       </div>
 
