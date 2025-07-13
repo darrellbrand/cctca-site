@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <section className="w-full h-screen flex items-center justify-center bg-gradient-to-br from-sky-900 to-blue-800 text-white px-4">
-      <div className="max-w-4xl text-center space-y-6 ">
+    <section className="w-full h-full flex items-center justify-center bg-slate-500 text-white px-4">
+      <div className="w-full text-center space-y-6 ">
         {/* Logo */}
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-4">
           <Image
             src="/bitmap.svg" // replace with your actual logo path
             alt="CCTCA Logo"
@@ -18,14 +18,16 @@ export default function Hero() {
             className="rounded-xl shadow-md"
           />
         </div>
-        <p className="text-lg md:text-xl text-blue-100">
+        <p className="text-lg md:text-2xl text-blue-100">
           Empowering justice-impacted individuals with digital literacy, cybersecurity skills, and career-ready training.
         </p>
         {/* CTA Button */}
         <div className="pt-4">
-          <Button className="bg-white text-sky-900 text-lg font-semibold hover:bg-blue-100">
-            Get Started
-          </Button>
+          <a href="#contact">
+            <Button className="bg-slate-400 text-blue-700 text-lg font-semibold hover:bg-blue-100  mb-6">
+              Get Started
+            </Button>
+          </a>
         </div>
       </div>
     </section>

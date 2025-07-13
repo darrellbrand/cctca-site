@@ -7,7 +7,7 @@ import { Mail, Phone, MapPin } from 'lucide-react'
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="bg-white py-16 px-6 md:px-12 lg:px-24 border-t border-gray-200">
+        <section id="contact" className="bg-slate-200 py-16 px-6 md:px-12 lg:px-24 border-t border-gray-200">
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
 
                 {/* Contact Info */}
@@ -19,16 +19,16 @@ export default function ContactSection() {
 
                     <div className="space-y-4 text-gray-700">
                         <div className="flex items-center space-x-3">
-                            <Mail className="w-5 h-5 text-blue-600" />
-                            <span>info@cctechacademy.org</span>
+                            <Mail className="w-5 h-5 text-blue-700" />
+                            <span>admin@cctechacademy.com</span>
                         </div>
                         <div className="flex items-center space-x-3">
-                            <Phone className="w-5 h-5 text-blue-600" />
-                            <span>(805) 555-1234</span>
+                            <Phone className="w-5 h-5 text-blue-700" />
+                            <span>(805) 556-5592</span>
                         </div>
                         <div className="flex items-center space-x-3">
-                            <MapPin className="w-5 h-5 text-blue-600" />
-                            <span>San Luis Obispo County, CA</span>
+                            <MapPin className="w-5 h-5 text-blue-700" />
+                            <span>200 S 13th St Suite 107,  Grover Beach CA, 93433</span>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ export default function ContactSection() {
                             <Textarea name="message"  id="message" rows={4} placeholder="How can we help you?" required />
                         </div>
 
-                        <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700">
+                        <Button type="submit" className="w-full bg-blue-700 text-white hover:bg-blue-800">
                             Send Message
                         </Button>
                     </form>
