@@ -1,10 +1,6 @@
 'use client';
 
 
-import { Button } from '@/components/ui/button';
-
-
-
 export default function Footer() {
     return (
         <footer className="bg-slate-100 border-t text-gray-700 ">

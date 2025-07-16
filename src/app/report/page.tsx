@@ -8,7 +8,7 @@ export default function AnnualReport() {
 
       <section className="mb-10">
         <h2 className="text-xl font-semibold mb-2">🎯 Mission</h2>
-        <p>CCTCA equips underserved individuals with the digital literacy, career readiness, and technology training needed to succeed in today's workforce.</p>
+        <p>CCTCA equips underserved individuals with the digital literacy, career readiness, and technology training needed to succeed in today&apos;s workforce.</p>
       </section>
 
       <section className="mb-10">
