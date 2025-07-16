@@ -42,7 +42,7 @@ export default function Footer() {
                         <li><a href="/privacy/" className="hover:text-blue-600">Privacy Policy</a></li>
                         <li><a href="/accessibility/" className="hover:text-blue-600">Accessibility</a></li>
                         <li><a href="/terms/" className="hover:text-blue-600">Terms of Use</a></li>
-                        <li><a href="/report" className="hover:text-blue-600">Annual Report</a></li>
+                        <li><a href="/report/" className="hover:text-blue-600">Annual Report</a></li>
                         <li><a href="/non-discrimination/" className="hover:text-blue-600">Non-Discrimination Policy</a></li>
                         <li><a href="/conduct/" className="hover:text-blue-600">Code of Conduct</a></li>
                     </ul>
