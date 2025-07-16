@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Central Coast Tech & Career Academy",
   description: "CCTCA non-profit site",
+   icons: {
+    icon: "/favicon.ico", // or "/favicon.svg"
+  },
 };
 
 export default function RootLayout({
