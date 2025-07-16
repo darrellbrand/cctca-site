@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About CCTCA</h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-8">
-          Central Coast Tech & Career Academy (CCTCA) is a mission-driven nonprofit based in California&apos;s Central Coast, dedicated to bridging the digital divide through inclusive workforce development.
+          Central Coast Tech & Career Academy Inc (CCTCA) is a mission-driven nonprofit based in California&apos;s Central Coast, dedicated to bridging the digital divide through inclusive workforce development.
         </p>
       </div>
 
@@ -20,7 +20,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3"> Our Mission</h3>
             </div>
             <p className="text-gray-700">
-              We empower justice-impacted individuals, and people in recovery with essential digital literacy, cybersecurity, and career readiness skills—creating equitable pathways to employment and long-term self-sufficiency.
+             We provide underserved and underrepresented communities with vital training in digital literacy, cybersecurity, and career readiness—equipping individuals with the skills and support needed to secure employment, thrive in the modern workforce, and achieve long-term economic independence.
             </p>
           </CardContent>
         </Card>
@@ -32,7 +32,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Vision</h3>
             </div>
             <p className="text-gray-700">
-              A future where every learner has the tools, confidence, and support to thrive in today’s digital economy and contribute to a stronger, more inclusive workforce.
+             Our vision is a future where every individual—regardless of background or circumstance—has equitable access to the digital skills, resources, and career pathways needed to participate fully in the 21st-century economy and help build a more resilient, inclusive workforce.
             </p>
           </CardContent>
         </Card>

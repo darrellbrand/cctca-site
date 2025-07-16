@@ -15,11 +15,11 @@ export default function Hero() {
             width={500}
             height={500}
             priority
-            className="rounded-xl shadow-md"
+            className=""
           />
         </div>
         <p className="text-lg md:text-2xl text-blue-100">
-          Empowering justice-impacted individuals with digital literacy, cybersecurity skills, and career-ready training.
+          Providing underserved adults with digital literacy, cybersecurity skills, and career training to advance equity and economic opportunity.
         </p>
         {/* CTA Button */}
         <div className="pt-4">

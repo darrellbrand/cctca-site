@@ -8,10 +8,9 @@ export default function ProgramsSection() {
       <div className="max-w-5xl mx-auto text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Programs</h2>
         <p className="text-gray-700 text-lg leading-relaxed">
-          CCTCA delivers high-impact digital training and career readiness programs designed for justice-impacted individuals, people in recovery, and underserved adults across the Central Coast.
+         CCTCA delivers high-impact digital literacy, workforce development, and career readiness programs tailored for underserved and underrepresented adult learners across the Central Coast—advancing equitable access to education, technology, and economic opportunity.
         </p>
       </div>
-
       <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
         <Card className="shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">

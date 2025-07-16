@@ -24,7 +24,7 @@ export default function ContactSection() {
                         </div>
                         <div className="flex items-center space-x-3">
                             <Phone className="w-5 h-5 text-blue-700" />
-                            <span>(805) 556-5592</span>
+                            <span>(805) 702-8556</span>
                         </div>
                         <div className="flex items-center space-x-3">
                             <MapPin className="w-5 h-5 text-blue-700" />
