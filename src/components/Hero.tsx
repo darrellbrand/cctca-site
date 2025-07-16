@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <section className="w-full h-full flex items-center justify-center bg-slate-500 text-white px-4">
+    <section className="w-full h-full flex items-center justify-center bg-[radial-gradient(circle,_#1447e6,_#0051cc,_#0055ae,_#2d568e,_#45556c)]  text-white px-4 bg-sl">
       <div className="w-full text-center space-y-6 ">
         {/* Logo */}
         <div className="flex justify-center mt-4">
@@ -18,13 +18,13 @@ export default function Hero() {
             className=""
           />
         </div>
-        <p className="text-lg md:text-2xl text-blue-100">
+        <p className="text-lg md:text-2xl text-blue-100 bg-sl">
           Providing underserved adults with digital literacy, cybersecurity skills, and career training to advance equity and economic opportunity.
         </p>
         {/* CTA Button */}
         <div className="pt-4">
           <a href="#contact">
-            <Button className="bg-slate-400 text-blue-700 text-lg font-semibold hover:bg-blue-100  mb-6">
+            <Button className="bg-slate-300 text-blue-700 text-lg font-semibold hover:bg-slate-400  mb-6  ">
               Get Started
             </Button>
           </a>
