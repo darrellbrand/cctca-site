@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <section className="w-full h-full flex items-center justify-center  bg-gradient-to-b from-slate-800 to-blue-300 text-white px-4 bg-sl">
+    <section className="w-full h-full flex items-center justify-center  bg-gradient-to-b from-slate-500 to-blue-200  px-4 bg-sl">
       <div className="w-full text-center space-y-6 ">
         {/* Logo */}
         <div className="flex justify-center mt-4">
