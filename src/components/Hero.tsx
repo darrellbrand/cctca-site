@@ -18,7 +18,7 @@ export default function Hero() {
             className=""
           />
         </div>
-        <p className="text-lg md:text-2xl text-slate-800 bg-sl">
+        <p className="text-lg md:text-2xl text-slate-800 bg-sl mx-auto max-w-7xl">
           Providing underserved adults with digital literacy, cybersecurity skills, and career training to advance equity and economic opportunity.
         </p>
         {/* CTA Button */}
