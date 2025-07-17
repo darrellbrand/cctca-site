@@ -15,7 +15,7 @@ export default function Hero() {
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-700/80 to-blue-200/20 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-800/80 to-blue-200/20 z-10" />
 
       {/* Text Overlay */}
       <div className="absolute inset-0 z-20 flex flex-col justify-center items-center gap-y-32 md:gap-y-100 px-4 ">
