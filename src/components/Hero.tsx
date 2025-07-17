@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
-    <section className="relative w-full bg-black h-[30vh] md:h-[80vh]">
+    <section className="relative w-full bg-black h-[40vh] md:h-[80vh]">
       {/* Image Wrapper */}
       <div className="w-full h-full ">
         <img
