@@ -8,17 +8,17 @@ export default function Hero() {
       {/* Image */}
       <div className="w-full h-full">
         <img
-          src="/lab.jpg"
+          src="/lab-4-crop.jpg"
           alt="CCTCA Lab"
           className="w-full h-full object-cover object-center"
         />
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-800/80 to-blue-200/20 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-800/60 to-blue-200/20 z-10" />
 
       {/* Text Overlay */}
-      <div className="absolute inset-0 z-20 flex flex-col justify-center items-center gap-y-26  md:gap-y-80 px-4 ">
+      <div className="absolute inset-0 z-20 flex flex-col justify-center items-center gap-y-26  md:gap-y-50 px-4 ">
         <h1 className="text-3xl md:text-8xl font-bold text-center  text-slate-200 drop-shadow-lg max-w-7xl">
           Central Coast Tech & Career Academy Inc.
         </h1>
