@@ -19,7 +19,7 @@ export default function Hero() {
 
       {/* Text Overlay */}
       <div className="absolute inset-0 z-20 flex flex-col justify-center items-center gap-y-26  md:gap-y-100 px-4 ">
-        <h1 className="text-3xl md:text-7xl font-bold text-center  text-slate-200 drop-shadow-lg max-w-5xl">
+        <h1 className="text-2xl md:text-7xl font-bold text-center  text-slate-200 drop-shadow-lg max-w-5xl">
           Central Coast Tech & Career Academy Inc.
         </h1>
         <div className="">
