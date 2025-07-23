@@ -51,7 +51,7 @@ export default function InstructorsSection() {
                         <div className="flex items-center gap-4 mb-4">
                              <div className='w-20 h-20 rounded-full overflow-hidden transition-transform duration-300 group-hover:scale-105'>
                             <Image
-                                src="/lab3.jpg" // Replace with actual image path
+                                src="/jonathan.png" // Replace with actual image path
                                 alt="Instructor Jonathan Aguirre"
                                 width={64}
                                 height={64}
