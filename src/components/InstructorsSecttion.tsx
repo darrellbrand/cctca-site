@@ -55,7 +55,7 @@ export default function InstructorsSection() {
                                 className="rounded-full object-cover"
                             />
                             <div>
-                                <h3 className="text-xl font-semibold text-gray-800">Jonathan Aguuirre</h3>
+                                <h3 className="text-xl font-semibold text-gray-800">Jonathan Aguirre</h3>
                                 <p className="text-sm text-gray-600">Cybersecurity Instructor</p>
                             </div>
                         </div>
