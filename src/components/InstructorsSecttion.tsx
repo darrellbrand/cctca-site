@@ -16,13 +16,15 @@ export default function InstructorsSection() {
                 <Card className="shadow-sm border border-gray-200 bg-slate-100">
                     <CardContent className="p-6">
                         <div className="flex items-center gap-4 mb-4">
-                            <Image
-                                src="/darrell.jpg" // Replace with actual image path
-                                alt="Instructor Darrell Friday"
-                                width={64}
-                                height={64}
-                                className="rounded-full object-cover"
-                            />
+                            <div className='w-20 h-20 rounded-full overflow-hidden'>
+                                <Image
+                                    src="/darrell.jpg" // Replace with actual image path
+                                    alt="Instructor Darrell Friday"
+                                    width={64}
+                                    height={64}
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Darrell Friday</h3>
                                 <p className="text-sm text-gray-600">Digital Literacy Instructor</p>
@@ -47,13 +49,15 @@ export default function InstructorsSection() {
                 <Card className="shadow-sm border border-gray-200 bg-slate-100">
                     <CardContent className="p-6">
                         <div className="flex items-center gap-4 mb-4">
+                             <div className='w-20 h-20 rounded-full overflow-hidden'>
                             <Image
                                 src="/lab3.jpg" // Replace with actual image path
                                 alt="Instructor Jonathan Aguirre"
                                 width={64}
                                 height={64}
-                                className="rounded-full object-cover"
+                                className="w-full h-full object-cover"
                             />
+                            </div>
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Jonathan Aguirre</h3>
                                 <p className="text-sm text-gray-600">Cybersecurity Instructor</p>
