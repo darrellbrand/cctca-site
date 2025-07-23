@@ -13,10 +13,10 @@ export default function InstructorsSection() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
-                <Card className="shadow-sm border border-gray-200 bg-slate-100">
+                <Card className="shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
                     <CardContent className="p-6">
                         <div className="flex items-center gap-4 mb-4">
-                            <div className='w-20 h-20 rounded-full overflow-hidden'>
+                            <div className='w-20 h-20 rounded-full overflow-hidden transition-transform duration-300 group-hover:scale-105'>
                                 <Image
                                     src="/darrell.jpg" // Replace with actual image path
                                     alt="Instructor Darrell Friday"
@@ -26,7 +26,7 @@ export default function InstructorsSection() {
                                 />
                             </div>
                             <div>
-                                <h3 className="text-xl font-semibold text-gray-800">Darrell Friday</h3>
+                                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-300">Darrell Friday</h3>
                                 <p className="text-sm text-gray-600">Digital Literacy Instructor</p>
                             </div>
                         </div>
@@ -35,21 +35,21 @@ export default function InstructorsSection() {
                                 Darrell specializes in digital literacy education and has over a decade of experience empowering adult learners with the essential tech skills they need to thrive in a digital world.
                             </p>
                             <div className="flex items-center space-x-3">
-                                <Mail className="w-5 h-5 text-blue-700" />
+                                <Mail className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />
                                 <span className='text-gray-800'>darrell.friday@cctechacademy.com</span>
                             </div>
                             <div className="flex items-center space-x-3">
-                                <Phone className="w-5 h-5 text-blue-700" />
+                                <Phone className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />
                                 <span className='text-gray-800'>(805) 702-8556</span>
                             </div>
                         </div>
                     </CardContent>
                 </Card>
 
-                <Card className="shadow-sm border border-gray-200 bg-slate-100">
+                <Card className="shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
                     <CardContent className="p-6">
                         <div className="flex items-center gap-4 mb-4">
-                             <div className='w-20 h-20 rounded-full overflow-hidden'>
+                             <div className='w-20 h-20 rounded-full overflow-hidden transition-transform duration-300 group-hover:scale-105'>
                             <Image
                                 src="/lab3.jpg" // Replace with actual image path
                                 alt="Instructor Jonathan Aguirre"
@@ -59,7 +59,7 @@ export default function InstructorsSection() {
                             />
                             </div>
                             <div>
-                                <h3 className="text-xl font-semibold text-gray-800">Jonathan Aguirre</h3>
+                                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-300">Jonathan Aguirre</h3>
                                 <p className="text-sm text-gray-600">Cybersecurity Instructor</p>
                             </div>
                         </div>
@@ -68,11 +68,11 @@ export default function InstructorsSection() {
                                 With a background in IT support and security, John leads learners through industry-recognized certifications while offering hands-on guidance and career coaching.
                             </p>
                             <div className="flex items-center space-x-3">
-                                <Mail className="w-5 h-5 text-blue-700" />
+                                <Mail className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />
                                 <span className='text-gray-800'>jonathan.aguirre@cctechacademy.com</span>
                             </div>
                             <div className="flex items-center space-x-3">
-                                <Phone className="w-5 h-5 text-blue-700" />
+                                <Phone className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />
                                 <span className='text-gray-800'>(805) 702-8556</span>
                             </div>
                         </div>
