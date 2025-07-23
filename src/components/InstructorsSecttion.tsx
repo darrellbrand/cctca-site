@@ -65,7 +65,7 @@ export default function InstructorsSection() {
                         </div>
                         <div className='flex flex-col gap-2'>
                             <p className="text-gray-700">
-                                With a background in IT support and security, John leads learners through industry-recognized certifications while offering hands-on guidance and career coaching.
+                                With a background in IT support and security, Jonathan leads learners through industry-recognized certifications while offering hands-on guidance and career coaching.
                             </p>
                             <div className="flex items-center space-x-3">
                                 <Mail className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />
