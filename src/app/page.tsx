@@ -5,6 +5,7 @@ import AboutSection from "@/components/About";
 import ProgramsSection from "@/components/Programs";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import InstructorsSection from "@/components/InstructorsSecttion";
 export default function Home() {
   return (
     <div className="w-full max-w-screen">
@@ -17,6 +18,9 @@ export default function Home() {
       </section >
       <section id="programs">
         <ProgramsSection></ProgramsSection>
+      </section>
+        <section id="instructors">
+        <InstructorsSection></InstructorsSection>
       </section>
       <section id="contact">
         <ContactSection></ContactSection>
