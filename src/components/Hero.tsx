@@ -23,6 +23,10 @@ export default function Hero() {
     },
     {
       text: "Academy",
+      
+    },
+     {
+      text: "Inc.",
     },
   ];
 
@@ -41,7 +45,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-slate-800/70 to-blue-200/10 z-10" />
 
       {/* Text Overlay */}
-      <div className="absolute inset-0 z-20 flex flex-col justify-center items-center gap-y-28  md:gap-y-110 px-4   mx-auto ">
+      <div className="absolute inset-0 z-20 flex flex-col justify-center items-center gap-y-28  md:gap-y-110 px-2   mx-auto ">
         <TypewriterEffectSmooth words={words}></TypewriterEffectSmooth>
         <div className="">
           <a href="#contact">
