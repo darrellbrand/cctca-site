@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import InstructorsSection from "@/components/InstructorsSecttion";
 
 export default function Home() {
-  const words = `Central Coast Tech & Career Academy Inc.`;
   return (
     <div className="w-full ">
       <TopBar></TopBar>
