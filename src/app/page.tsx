@@ -6,10 +6,13 @@ import ProgramsSection from "@/components/Programs";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import InstructorsSection from "@/components/InstructorsSecttion";
+
 export default function Home() {
+  const words = `Central Coast Tech & Career Academy Inc.`;
   return (
-    <div className="w-full max-w-screen">
+    <div className="w-full ">
       <TopBar></TopBar>
+      <div className="overflow-hidden">
       <section id="home">
         <Hero></Hero>
       </section>
@@ -26,6 +29,7 @@ export default function Home() {
         <ContactSection></ContactSection>
       </section>
       <Footer></Footer>
+      </div>
     </div>
   );
 }
