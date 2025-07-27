@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card'
 
 export default function ProgramsSection() {
   return (
-    <section id="programs" className="w-full bg-slate-300  -mt-1  px-6 md:px-12 lg:px-24">
+    <section id="programs" className="w-full bg-slate-300  -mt-1  px-6 md:px-12 lg:px-24 electrolize-regular">
       <div className="max-w-5xl mx-auto text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Programs</h2>
         <p className="text-gray-700 text-lg leading-relaxed">

@@ -125,3 +125,10 @@
 html {
   scroll-behavior: smooth;
 }
+/* globals.css */
+.zen-dots {
+  font-family: var(--font-zen-dots);
+}
+.electrolize-regular {
+  font-family: var(--font-electrolize);
+}

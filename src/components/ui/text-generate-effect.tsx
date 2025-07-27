@@ -32,7 +32,7 @@ export const TextGenerateEffect = ({
 
   const renderWords = () => {
     return (
-      <div className="flex justify-center text-center ">
+      <div className="flex justify-center text-center  ">
       <motion.div ref={scope}>
         {wordsArray.map((word, idx) => {
           return (
@@ -54,8 +54,8 @@ export const TextGenerateEffect = ({
 
   return (
     <div className={cn("font-bold ", className)}>
-      <div className="">
-        <div className=" text-slate-50 text-3xl md:text-7xl  leading-snug tracking-wide">
+      <div className=" ">
+        <div className=" text-slate-50 text-3xl md:text-7xl  leading-snug tracking-wide ">
           {renderWords()}
         </div>
       </div>

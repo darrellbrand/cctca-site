@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Zen_Dots, Electrolize } from "next/font/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +20,16 @@ export const metadata: Metadata = {
     icon: "/favicon.ico", // or "/favicon.svg"
   },
 };
-
+const zenDots = Zen_Dots({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-zen-dots",
+});
+const electrolize = Electrolize({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-electrolize",
+});
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen w-full`}
+        className={`${geistSans.variable} ${geistMono.variable} ${zenDots.variable} ${electrolize.variable} antialiased min-h-screen w-full`}
       >
         {children}
       </body>

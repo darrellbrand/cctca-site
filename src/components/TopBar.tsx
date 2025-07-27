@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 export default function TopBar() {
   return (
-    <div className="w-full px-4 md:px-8 py-2 sticky z-50 top-0 shadow-xl border-b flex flex-row justify-between items-center  bg-slate-400 ">
+    <div className="w-full px-4 md:px-8 py-2 sticky z-50 top-0 shadow-xl border-b flex flex-row justify-between items-center electrolize-regular bg-slate-400 ">
       <div className=" font-bold flex  items-center ">
         <div className="flex items-center">
           <a href="#home">
@@ -17,7 +17,7 @@ export default function TopBar() {
             />
           </a>
         </div></div>
-      <div className=" flex flex-row flex-wrap justify-center items-center gap-1.5">
+      <div className=" flex flex-row flex-wrap justify-center items-center gap-1">
         <a href="#home">
           <Button className=" text-slate-700 font-bold md:text-2xl p-1  bg-slate-400 hover:bg-slate-500 " variant="ghost">Home</Button>
         </a>

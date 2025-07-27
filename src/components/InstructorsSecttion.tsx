@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Phone, Mail } from 'lucide-react'
 export default function InstructorsSection() {
     return (
-        <section id="instructors" className="w-full bg-slate-200  px-6 md:px-12 lg:px-24">
+        <section id="instructors" className="w-full bg-slate-200  px-6 md:px-12 lg:px-24 electrolize-regular">
             <div className="max-w-5xl mx-auto text-center mb-10">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Our Instructors</h2>
                 <p className="text-gray-700 text-lg leading-relaxed">
