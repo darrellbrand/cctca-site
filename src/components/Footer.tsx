@@ -3,7 +3,7 @@
 
 export default function Footer() {
     return (
-        <footer className="bg-slate-100  text-gray-700 ">
+        <footer className="bg-slate-100 -mt-1  text-gray-700 ">
             <div className="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Organization Info */}
                 <div>
