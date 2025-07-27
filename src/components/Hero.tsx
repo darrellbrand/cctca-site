@@ -21,11 +21,11 @@ export default function Hero() {
 
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-800/70 to-blue-200/10 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 to-slate-900/10 z-10" />
 
       {/* Text Overlay */}
       <div className="absolute inset-0 z-20 flex flex-col justify-around  items-center  gap-30 md:gap-60    mx-auto  electrolize-regular">
-        <div className="max-w-5xl px-10">
+        <div className="max-w-7xl px-10 ">
           <TextGenerateEffect words={words} ></TextGenerateEffect>
         </div>
         <a href="#contact">

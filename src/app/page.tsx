@@ -12,13 +12,14 @@ export default function Home() {
     <div className="w-full ">
       <TopBar></TopBar>
       <div className="overflow-hidden">
-        <section id="home">
-          <Hero></Hero>
-        </section>
+
 
         <div className="relative -mt-1 bg-slate-400">
+          <section id="home">
+            <Hero></Hero>
+          </section>
           <svg
-            className="w-full h-[120px]"
+            className="w-full h-[100px]"
             viewBox="0 0 1440 320"
             preserveAspectRatio="none"
             xmlns="http://www.w3.org/2000/svg"
