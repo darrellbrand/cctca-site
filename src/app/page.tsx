@@ -12,22 +12,99 @@ export default function Home() {
     <div className="w-full ">
       <TopBar></TopBar>
       <div className="overflow-hidden">
-      <section id="home">
-        <Hero></Hero>
-      </section>
-      <section id="about">
-        <AboutSection></AboutSection>
-      </section >
-      <section id="programs">
-        <ProgramsSection></ProgramsSection>
-      </section>
+        <section id="home">
+          <Hero></Hero>
+        </section>
+
+        <div className="relative -mt-1 bg-slate-400">
+          <svg
+            className="w-full h-[120px]"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#e2e8f0"
+              fillOpacity="1"
+              d="M0,128L80,122.7C160,117,320,107,480,117.3C640,128,800,160,960,170.7C1120,181,1280,171,1360,165.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            />
+          </svg>
+        </div>
+        <section id="about">
+          <AboutSection></AboutSection>
+        </section >
+        <div className="relative -mt-1 bg-slate-200">
+          <svg
+            className="w-full h-[120px]"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#cbd5e1"
+              fillOpacity="1"
+              d="M0,224L80,213.3C160,203,320,181,480,154.7C640,128,800,96,960,117.3C1120,139,1280,213,1360,250.7L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            />
+          </svg>
+        </div>
+
+
+
+
+        <section id="programs">
+          <ProgramsSection></ProgramsSection>
+        </section>
+        <div className="relative -mt-1 bg-slate-300">
+          <svg
+            className="w-full h-[120px]"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#e2e8f0"
+              fillOpacity="1"
+              d="M0,192C120,160,240,96,360,85.3C480,75,600,117,720,133.3C840,149,960,139,1080,154.7C1200,171,1320,213,1380,234.7L1440,256V320H1380C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320H0Z"
+            />
+          </svg>
+        </div>
         <section id="instructors">
-        <InstructorsSection></InstructorsSection>
-      </section>
-      <section id="contact">
-        <ContactSection></ContactSection>
-      </section>
-      <Footer></Footer>
+          <InstructorsSection></InstructorsSection>
+        </section>
+        <div className="relative -mt-1 bg-slate-200">
+          <svg
+            className="w-full h-[120px]"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#cbd5e1"
+              fillOpacity="1"
+              d="M0,160C80,149.3,160,117,240,101.3C320,85,400,85,480,106.7C560,128,640,160,720,160C800,160,880,128,960,112C1040,96,1120,96,1200,117.3C1280,139,1360,181,1400,202.7L1440,224V320H0Z"
+            />
+          </svg>
+        </div>
+
+        <section id="contact">
+          <ContactSection></ContactSection>
+        </section>
+        <div className="relative -mt-1 bg-slate-300">
+          <svg
+            className="w-full h-[60px]"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#f1f5f9"  
+              fillOpacity="1"
+              d="M0,288L120,272C240,256,480,224,720,213.3C960,203,1200,213,1320,218.7L1440,224V320H0Z"
+            />
+          </svg>
+        </div>
+
+        <Footer></Footer>
       </div>
     </div>
   );
