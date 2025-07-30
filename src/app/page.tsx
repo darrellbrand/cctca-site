@@ -6,10 +6,29 @@ import ProgramsSection from "@/components/Programs";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import InstructorsSection from "@/components/InstructorsSecttion";
-
+import Head from 'next/head'
 export default function Home() {
   return (
+
+
     <div className="w-full ">
+      <Head>
+        <title>Digital Literacy Program | Central Coast Tech & Career Academy</title>
+        <meta name="description" content="Master computer basics, internet skills, file management, email, and digital tools with our beginner-friendly Digital Literacy program." />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Digital Literacy & Computer Basics Program" />
+        <meta property="og:description" content="Learn typing, file management, browsing, email, and document tools. Free program by CCTCA for adult learners." />
+        <meta property="og:image" content="/lab5.jpg" />
+        <meta property="og:url" content="https://cctechacademy.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Digital Literacy at CCTCA" />
+        <meta name="twitter:description" content="Explore foundational computer and internet skills for adult learners. Taught with real-world labs and supportive coaching." />
+        <meta name="twitter:image" content="/lab5.jpg" />
+        <link rel="canonical" href="https://cctechacademy.com"/>
+      </Head>
       <TopBar></TopBar>
       <div className="overflow-hidden">
 

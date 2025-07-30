@@ -40,7 +40,7 @@ export default function InstructorsSection() {
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Phone className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />
-                                <span className='text-gray-800'>(805) 702-8556</span>
+                                <span className='text-gray-800'>(820) 380-8067</span>
                             </div>
                         </div>
                     </CardContent>
@@ -73,7 +73,7 @@ export default function InstructorsSection() {
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Phone className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />
-                                <span className='text-gray-800'>(805) 702-8556</span>
+                                <span className='text-gray-800'>(805) 574-5651</span>
                             </div>
                         </div>
                     </CardContent>
