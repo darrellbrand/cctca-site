@@ -16,11 +16,11 @@ export default function AboutSection() {
         <Card className="shadow-md border border-gray-200 bg-slate-300">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
-              <Target  className="text-blue-700"></Target>
+              <Target className="text-blue-700"></Target>
               <h3 className="text-xl font-semibold text-gray-800 mb-3"> Our Mission</h3>
             </div>
             <p className="text-gray-700">
-             We provide underserved and underrepresented communities with vital training in digital literacy, cybersecurity, and career readiness—equipping individuals with the skills and support needed to secure employment, thrive in the modern workforce, and achieve long-term economic independence.
+              We provide underserved and underrepresented communities with vital training in digital literacy, cybersecurity, and career readiness—equipping individuals with the skills and support needed to secure employment, thrive in the modern workforce, and achieve long-term economic independence.
             </p>
           </CardContent>
         </Card>
@@ -28,11 +28,11 @@ export default function AboutSection() {
         <Card className="shadow-md border border-gray-200 bg-slate-300">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
-              <Eye  className="text-blue-700"></Eye>
+              <Eye className="text-blue-700"></Eye>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Vision</h3>
             </div>
             <p className="text-gray-700">
-             Our vision is a future where every individual—regardless of background or circumstance—has equitable access to the digital skills, resources, and career pathways needed to participate fully in the 21st-century economy and help build a more resilient, inclusive workforce.
+              Our vision is a future where every individual—regardless of background or circumstance—has equitable access to the digital skills, resources, and career pathways needed to participate fully in the 21st-century economy and help build a more resilient, inclusive workforce.
             </p>
           </CardContent>
         </Card>
@@ -40,7 +40,7 @@ export default function AboutSection() {
         <Card className="shadow-md border border-gray-200 md:col-span-2 bg-slate-300">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
-              <Handshake  className="text-blue-700"></Handshake>
+              <Handshake className="text-blue-700"></Handshake>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">What We Do</h3>
             </div>
             <p className="text-gray-700 mb-2">
@@ -50,6 +50,7 @@ export default function AboutSection() {
               <li>Foundational computer literacy & digital navigation</li>
               <li>Foundational cybersecurity</li>
               <li>Cybersecurity & IT Support via Google Career Certificates</li>
+              <li>Prompt engineering & practical AI skills with ChatGPT</li>
               <li>Resume writing, mock interviews, and job search coaching</li>
               <li>Hands-on labs, peer learning, and career coaching</li>
             </ul>
