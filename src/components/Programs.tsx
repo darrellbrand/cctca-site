@@ -22,7 +22,7 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Literacy</h3>
             </div>
             <p className="text-gray-700">
-              Our hands-on <strong>Digital Basics and Cybersecurity</strong> curriculum covers computer fundamentals, cybersecurity, email, online safety, and productivity tools—equipping learners with the digital skills needed to succeed at work, in school, and in life.
+              Our hands-on <strong>Digital Basics</strong> and <strong>Cybersecurity</strong> curriculum covers computer fundamentals, cybersecurity, email, online safety, and productivity tools—equipping learners with the digital skills needed to succeed at work, in school, and in life.
             </p>
           </CardContent>
         </Card>
