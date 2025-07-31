@@ -1,5 +1,5 @@
-'use client'
-import { Laptop, Wifi, Shield, Folder, Bot } from "lucide-react";
+'use client';
+import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server } from "lucide-react";
 import { Card, CardContent } from '@/components/ui/card'
 
 export default function ProgramsSection() {
@@ -14,7 +14,7 @@ export default function ProgramsSection() {
 
       <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
 
-        {/* Digital Literacy */}
+        {/* Existing Cards */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
@@ -27,7 +27,6 @@ export default function ProgramsSection() {
           </CardContent>
         </Card>
 
-        {/* Cybersecurity & IT Support */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
@@ -35,10 +34,11 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Cybersecurity & IT Support</h3>
             </div>
             <p className="text-gray-700">
-              We offer access to the <strong>Google Cybersecurity</strong> and <strong>IT Support Professional Certificates</strong>   via Coursera, supported by peer mentoring, one on one coaching, and job placement support. Learners graduate with industry-recognized credentials.
+              We offer access to the <strong>Google Cybersecurity</strong> and <strong>IT Support Professional Certificates</strong> via Coursera, supported by peer mentoring, one on one coaching, and job placement support. Learners graduate with industry-recognized credentials.
             </p>
           </CardContent>
         </Card>
+
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
@@ -50,7 +50,7 @@ export default function ProgramsSection() {
             </p>
           </CardContent>
         </Card>
-        {/* Resume & Job Readiness */}
+
         <Card className="shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
@@ -63,7 +63,6 @@ export default function ProgramsSection() {
           </CardContent>
         </Card>
 
-        {/* Digital Equity Navigation */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
@@ -76,8 +75,31 @@ export default function ProgramsSection() {
           </CardContent>
         </Card>
 
-        {/* Prompt Engineering with ChatGPT */}
+        {/* NEW: Academic Tutoring */}
+        <Card className="shadow-sm border border-gray-200 bg-slate-100">
+          <CardContent className="p-6">
+            <div className="flex flex-row gap-2">
+              <BookOpen className="text-blue-700" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Tutoring & Academic Skills</h3>
+            </div>
+            <p className="text-gray-700">
+              We offer tutoring support in <strong>English, math up to precalculus, computer programming and data science fundamentals, and computer networking</strong>—preparing learners for certifications, coursework, and career pivots in IT and STEM pathways.
+            </p>
+          </CardContent>
+        </Card>
 
+        {/* NEW: Paid IT Services */}
+        <Card className="shadow-sm border border-gray-200 bg-slate-100">
+          <CardContent className="p-6">
+            <div className="flex flex-row gap-2">
+              <Server className="text-blue-700" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Tech Support Services</h3>
+            </div>
+            <p className="text-gray-700">
+              Through our <strong>community IT support service</strong>, we offer affordable troubleshooting for computer and networking issues—including setup, virus removal, Wi-Fi configuration, and device upgrades—as a hands-on learning and revenue-generating initiative.
+            </p>
+          </CardContent>
+        </Card>
 
       </div>
     </section>
