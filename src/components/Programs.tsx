@@ -83,7 +83,7 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Tutoring & Academic Skills</h3>
             </div>
             <p className="text-gray-700">
-              We offer tutoring support in <strong>English, math up to precalculus, computer programming and data science fundamentals, and computer networking</strong>—preparing learners for certifications, coursework, and career pivots in IT and STEM pathways.
+              We offer tutoring support in <strong>English, math up to precalculus, computer programming and data science fundamentals, digital and analog circuit analysis, and computer networking</strong>—preparing learners for certifications, coursework, and career pivots in IT and STEM pathways.
             </p>
           </CardContent>
         </Card>
