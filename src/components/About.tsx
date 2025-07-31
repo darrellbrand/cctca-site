@@ -52,6 +52,8 @@ export default function AboutSection() {
               <li>Cybersecurity & IT Support via Google Career Certificates</li>
               <li>Prompt engineering & practical AI skills with ChatGPT</li>
               <li>Resume writing, mock interviews, and job search coaching</li>
+              <li>Academic tutoring in English, math, computer science, and networking</li>
+              <li>Affordable tech support services for computers and home networks</li>
               <li>Hands-on labs, peer learning, and career coaching</li>
             </ul>
           </CardContent>
