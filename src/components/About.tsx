@@ -51,6 +51,7 @@ export default function AboutSection() {
               <li>Foundational cybersecurity</li>
               <li>Cybersecurity & IT Support via Google Career Certificates</li>
               <li>Prompt engineering & practical AI skills with ChatGPT</li>
+              <li>Intro to HTML & CSS: Build your first personal website from scratch</li>
               <li>Resume writing, mock interviews, and job search coaching</li>
               <li>Academic tutoring in English, math, computer science, and networking</li>
               <li>Affordable tech support services for computers and home networks</li>

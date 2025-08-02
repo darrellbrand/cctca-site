@@ -32,7 +32,7 @@ export default function InstructorsSection() {
                         </div>
                         <div className='flex flex-col gap-2'>
                             <p className="text-gray-700">
-                                Darrell specializes in digital literacy education and has over a decade of experience empowering adult learners with the essential tech skills they need to thrive in a digital world.
+                                Darrell is a seasoned technology educator and software engineer with over 20 years of experience in the tech industry. He brings real-world development expertise into the classroom, helping learners build practical skills in computing, web development, and digital tools essential for today’s workforce.
                             </p>
                             <div className="flex items-center space-x-3">
                                 <Mail className="w-5 h-5 text-blue-700 group-hover:text-blue-900 transition-colors duration-300" />

@@ -1,5 +1,5 @@
 'use client';
-import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server } from "lucide-react";
+import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server, Code } from "lucide-react";
 import { Card, CardContent } from '@/components/ui/card'
 
 export default function ProgramsSection() {
@@ -26,18 +26,29 @@ export default function ProgramsSection() {
             </p>
           </CardContent>
         </Card>
-
-        <Card className="shadow-sm border border-gray-200 bg-slate-100">
+          <Card className="shadow-sm border border-gray-200 bg-slate-100 ">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Shield className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Cybersecurity & IT Support</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 ">Cybersecurity & IT Support</h3>
             </div>
             <p className="text-gray-700">
               We offer access to the <strong>Google Cybersecurity</strong> and <strong>IT Support Professional Certificates</strong> via Coursera, supported by peer mentoring, one on one coaching, and job placement support. Learners graduate with industry-recognized credentials.
             </p>
           </CardContent>
         </Card>
+        <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
+          <CardContent className="p-6">
+            <div className="flex flex-row gap-2">
+              <Code className="text-blue-700" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Intro to HTML & CSS</h3>
+            </div>
+            <p className="text-gray-700">
+              This beginner-friendly course teaches adults how to <strong>build and style basic websites</strong> using HTML and CSS. Learners gain hands-on experience with page structure, text formatting, images, navigation links, and visual design—culminating in a personal portfolio project. A perfect first step into tech, design, or digital freelancing.
+            </p>
+          </CardContent>
+        </Card>
+      
 
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
