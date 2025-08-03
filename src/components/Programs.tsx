@@ -1,5 +1,5 @@
 'use client';
-import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server, Code } from "lucide-react";
+import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server, Code, Terminal } from "lucide-react";
 import { Card, CardContent } from '@/components/ui/card'
 
 export default function ProgramsSection() {
@@ -12,11 +12,15 @@ export default function ProgramsSection() {
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
+      <div className=" grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
 
         {/* Existing Cards */}
-        <Card className="shadow-sm border border-gray-200 bg-slate-100">
+        <Card className=" relative shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">
+               {/* Badge */}
+            <span className="absolute top-4 right-4 bg-green-600 text-white text-xs font-semibold px-2 py-1 rounded-full shadow">
+              START HERE
+            </span>
             <div className="flex flex-row gap-2">
               <Laptop className="text-blue-700" />
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Literacy</h3>
@@ -26,7 +30,7 @@ export default function ProgramsSection() {
             </p>
           </CardContent>
         </Card>
-          <Card className="shadow-sm border border-gray-200 bg-slate-100 ">
+        <Card className="shadow-sm border border-gray-200 bg-slate-100 ">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Shield className="text-blue-700" />
@@ -48,8 +52,18 @@ export default function ProgramsSection() {
             </p>
           </CardContent>
         </Card>
-      
 
+        <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2 relative">
+          <CardContent className="p-6">
+            <div className="flex flex-row gap-2">
+              <Terminal className="text-blue-700" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Intro to Programming with Python</h3>
+            </div>
+            <p className="text-gray-700">
+              Our beginner-focused <strong>Intro to Programming with Python</strong> course teaches adults how to think like a programmer, solve problems, and build simple applications. Through engaging lessons on variables, loops, conditionals, functions, and object-oriented concepts, learners gain the foundations to pursue paths in software, data, or IT—and create real-world mini projects along the way.
+            </p>
+          </CardContent>
+        </Card>
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
