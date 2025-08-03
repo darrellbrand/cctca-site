@@ -11,7 +11,6 @@ export default function Footer() {
                     <p className="mt-2 text-sm">
                         Central Coast Tech & Career Academy Inc is a 501(c)(3) nonprofit organization.
                     </p>
-                    <p className="mt-1 text-xs text-gray-500">EIN: 39-2908710</p>
                     <p className="mt-1 text-xs text-gray-500">© {new Date().getFullYear()} CCTCA. All rights reserved.</p>
                 </div>
 
