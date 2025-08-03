@@ -20,7 +20,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3"> Our Mission</h3>
             </div>
             <p className="text-gray-700">
-              We provide underserved and underrepresented communities with vital training in digital literacy, cybersecurity, and career readiness—equipping individuals with the skills and support needed to secure employment, thrive in the modern workforce, and achieve long-term economic independence.
+              At CCTCA, we provide underserved and underrepresented communities with essential training in digital literacy, cybersecurity, and career readiness—while also offering innovative programs in prompt engineering with AI, intro to HTML & web design, and foundational computing skills. Our holistic approach equips learners with the tools and confidence to navigate technology, pursue careers in tech and beyond, and achieve lasting economic independence.
             </p>
           </CardContent>
         </Card>
@@ -32,7 +32,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Vision</h3>
             </div>
             <p className="text-gray-700">
-              Our vision is a future where every individual—regardless of background or circumstance—has equitable access to the digital skills, resources, and career pathways needed to participate fully in the 21st-century economy and help build a more resilient, inclusive workforce.
+              Our vision is a future where every individual—regardless of background or circumstance—has equitable access to the digital fluency, technical knowledge, and real-world learning opportunities needed to thrive in a technology-driven world. By providing hands-on, relevant, and accessible training, we aim to empower people to participate fully in the modern economy and help build a more inclusive, adaptable workforce.
             </p>
           </CardContent>
         </Card>
@@ -52,6 +52,7 @@ export default function AboutSection() {
               <li>Cybersecurity & IT Support via Google Career Certificates</li>
               <li>Prompt engineering & practical AI skills with ChatGPT</li>
               <li>Intro to HTML & CSS: Build your first personal website from scratch</li>
+              <li>Intro to Python programming: Learn core coding concepts through hands-on projects</li>
               <li>Resume writing, mock interviews, and job search coaching</li>
               <li>Academic tutoring in English, math, computer science, and networking</li>
               <li>Affordable tech support services for computers and home networks</li>
