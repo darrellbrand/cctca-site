@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect"
 
 
 export default function Hero() {
-  const words = `Central Coast Tech & Career Academy Inc.`
+  const words = `Central Coast Tech & Career Academy`
   return (
 
     <section className="relative w-full bg-black h-[70vh] md:h-[80vh] electrolize-regular ">
