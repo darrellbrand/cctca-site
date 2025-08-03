@@ -1,5 +1,5 @@
 'use client';
-import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server, Code, Terminal } from "lucide-react";
+import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server, Code, Terminal,KeyRound  } from "lucide-react";
 import { Card, CardContent } from '@/components/ui/card'
 
 export default function ProgramsSection() {
@@ -45,11 +45,11 @@ export default function ProgramsSection() {
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
-              <Shield className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3 ">Cybersecurity & IT Support</h3>
+              <KeyRound className="text-blue-700" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 ">IT Support & Cybersecurity</h3>
             </div>
             <p className="text-gray-700">
-              We offer access to the <strong>Google Cybersecurity</strong> and <strong>IT Support Professional Certificates</strong> via Coursera, supported by peer mentoring, one on one coaching, and job placement support. Learners graduate with industry-recognized credentials.
+              We offer access to the <strong>Google IT Support Professional</strong> and <strong>Cybersecurity Certificates</strong> via Coursera, supported by peer mentoring, one on one coaching, and job placement support. Learners graduate with industry-recognized credentials.
             </p>
           </CardContent>
         </Card>
