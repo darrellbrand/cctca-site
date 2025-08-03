@@ -16,7 +16,7 @@ export default function InstructorsSection() {
                 <Card className="shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
                     <CardContent className="p-6">
                         <div className="flex items-center gap-4 mb-4">
-                            <div className='w-20 h-20 rounded-full overflow-hidden transition-transform duration-300 group-hover:scale-105'>
+                            <div className='w-30 h-30 rounded-full overflow-hidden transition-transform duration-300 group-hover:scale-105'>
                                 <Image
                                     src="/darrell.jpg" // Replace with actual image path
                                     alt="Instructor Darrell Friday"
@@ -49,7 +49,7 @@ export default function InstructorsSection() {
                 <Card className="shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
                     <CardContent className="p-6">
                         <div className="flex items-center gap-4 mb-4">
-                             <div className='w-20 h-20 rounded-full overflow-hidden transition-transform duration-300 group-hover:scale-105'>
+                             <div className='w-30 h-30 rounded-full overflow-hidden transition-transform duration-300 group-hover:scale-105'>
                             <Image
                                 src="/jonathan.png" // Replace with actual image path
                                 alt="Instructor Jonathan Aguirre"

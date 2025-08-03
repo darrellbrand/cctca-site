@@ -15,22 +15,34 @@ export default function ProgramsSection() {
       <div className=" grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
 
         {/* Existing Cards */}
-        <Card className=" relative shadow-sm border border-gray-200 bg-slate-100">
+        <Card className="relative shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">
-               {/* Badge */}
+            {/* Badge */}
             <span className="absolute top-4 right-4 bg-green-600 text-white text-xs font-semibold px-2 py-1 rounded-full shadow">
               START HERE
             </span>
             <div className="flex flex-row gap-2">
               <Laptop className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Literacy</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Basics</h3>
             </div>
             <p className="text-gray-700">
-              Our hands-on <strong>Digital Basics</strong> and <strong>Cybersecurity</strong> curriculum covers computer fundamentals, cybersecurity, email, online safety, and productivity tools—equipping learners with the digital skills needed to succeed at work, in school, and in life.
+              This entry-level course covers essential computer skills including typing, file management, email, internet navigation, and Google Workspace tools—designed for adult learners gaining digital confidence for work, school, or everyday life.
             </p>
           </CardContent>
         </Card>
-        <Card className="shadow-sm border border-gray-200 bg-slate-100 ">
+        <Card className="relative shadow-sm border border-gray-200 bg-slate-100">
+          <CardContent className="p-6">
+            <div className="flex flex-row gap-2">
+              <Shield className="text-blue-700" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Cybersecurity Foundations</h3>
+            </div>
+            <p className="text-gray-700">
+              Learners explore the fundamentals of online safety, password hygiene, phishing awareness, and secure device practices—building a strong foundation for safe tech use and future IT pathways.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Shield className="text-blue-700" />
@@ -108,7 +120,7 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Tutoring & Academic Skills</h3>
             </div>
             <p className="text-gray-700">
-              We offer tutoring support in <strong>English, math up to precalculus, computer programming and data science fundamentals, digital and analog circuit analysis, and computer networking</strong>—preparing learners for certifications, coursework, and career pivots in IT and STEM pathways.
+              We offer tutoring support in <strong>English, math, computer programming and data science fundamentals, digital and analog circuit analysis, and computer networking</strong>—preparing learners for certifications, coursework, and career pivots in IT and STEM pathways.
             </p>
           </CardContent>
         </Card>

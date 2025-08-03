@@ -20,7 +20,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3"> Our Mission</h3>
             </div>
             <p className="text-gray-700">
-              At CCTCA, we provide underserved and underrepresented communities with essential training in digital literacy, cybersecurity, and career readiness—while also offering innovative programs in prompt engineering with AI, intro to HTML & web design, and foundational computing skills. Our holistic approach equips learners with the tools and confidence to navigate technology, pursue careers in tech and beyond, and achieve lasting economic independence.
+            At CCTCA, our mission is to expand access to digital opportunity by equipping underserved and underrepresented communities with the skills, confidence, and support needed to thrive in a technology-driven world. Through inclusive, hands-on learning, we empower individuals to navigate digital tools, pursue career pathways, and build lasting economic independence.
             </p>
           </CardContent>
         </Card>
@@ -47,16 +47,16 @@ export default function AboutSection() {
               Our wraparound programs combine one on one instruction with real-world tools:
             </p>
             <ul className="list-disc pl-5 text-gray-700 space-y-1">
-              <li>Foundational computer literacy & digital navigation</li>
-              <li>Foundational cybersecurity</li>
-              <li>Cybersecurity & IT Support via Google Career Certificates</li>
-              <li>Prompt engineering & practical AI skills with ChatGPT</li>
-              <li>Intro to HTML & CSS: Build your first personal website from scratch</li>
-              <li>Intro to Python programming: Learn core coding concepts through hands-on projects</li>
-              <li>Resume writing, mock interviews, and job search coaching</li>
-              <li>Academic tutoring in English, math, computer science, and networking</li>
-              <li>Affordable tech support services for computers and home networks</li>
-              <li>Hands-on labs, peer learning, and career coaching</li>
+              <li>Essential digital literacy and computer navigation skills for underserved communities</li>
+              <li>Cybersecurity basics to promote digital safety and online risk prevention</li>
+              <li>IT and tech support training aligned with workforce certification pathways</li>
+              <li>Accessible AI and emerging tech skills for equity in the digital economy</li>
+              <li>Web design and content creation for career exploration and entrepreneurship</li>
+              <li>Introductory programming and problem-solving to expand tech career access</li>
+              <li>Career readiness support including resumes, interviews, and job search</li>
+              <li>Academic tutoring in core subjects and technical foundations</li>
+              <li>Affordable tech support services to bridge home connectivity gaps</li>
+              <li>Project-based learning, mentoring, and personalized coaching</li>
             </ul>
           </CardContent>
         </Card>
