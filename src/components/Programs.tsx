@@ -1,15 +1,41 @@
 'use client';
+
+import Link from "next/link";
 import { Laptop, Wifi, Shield, Folder, Bot, BookOpen, Server, Code, Terminal, KeyRound } from "lucide-react";
 import { Card, CardContent } from '@/components/ui/card'
 
 export default function ProgramsSection() {
   return (
-    <section id="programs" className="w-full bg-slate-300 -mt-1 px-6 md:px-12 lg:px-24 electrolize-regular">
+    <section
+      id="programs"
+      className="w-full bg-slate-300 -mt-1 px-6 md:px-12 lg:px-24 electrolize-regular"
+    >
       <div className="max-w-5xl mx-auto text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Programs</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Our Programs
+        </h2>
         <p className="text-gray-700 text-lg leading-relaxed">
-          CCTCA offers digital literacy, technology awareness, and career exploration programs <strong>as part of our broader charitable mission</strong> to support underserved and underrepresented adult learners across the Central Coast — advancing equitable access to education, technology, and economic opportunity.
+          CCTCA offers digital literacy, technology awareness, and career
+          exploration programs <strong>as part of our broader charitable mission</strong> to
+          support underserved and underrepresented adult learners across the
+          Central Coast — advancing equitable access to education, technology,
+          and economic opportunity.
         </p>
+
+        {/* BPPE Tuition Policy Link */}
+        <div className="mt-6">
+          <Link
+            href="/tuition/"
+            className="inline-block rounded-lg bg-green-600 px-5 py-2.5 text-black font-semibold shadow hover:bg-emerald-700 transition-colors"
+          >
+            View Our Tuition & Accessibility Policy
+          </Link>
+          <p className="mt-2 text-sm text-gray-600">
+            Learn about our cost-recovery tuition, sliding scale, scholarships,
+            and “no denial” policy — publicly posted for BPPE exemption
+            compliance.
+          </p>
+        </div>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
@@ -25,7 +51,11 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Basics</h3>
             </div>
             <p className="text-gray-700">
-              An entry-level course covering essential computer skills such as typing, file management, email, internet navigation, and Google Workspace tools — designed to help adult learners build digital confidence for daily life, community participation, and continued learning.
+              An entry-level course covering essential computer skills such as
+              typing, file management, email, internet navigation, and Google
+              Workspace tools — designed to help adult learners build digital
+              confidence for daily life, community participation, and continued
+              learning.
             </p>
           </CardContent>
         </Card>
@@ -38,7 +68,10 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Cybersecurity Foundations</h3>
             </div>
             <p className="text-gray-700">
-              Learners explore the fundamentals of online safety, phishing awareness, password hygiene, and secure device practices — building everyday confidence in safe technology use and awareness of future learning opportunities.
+              Learners explore the fundamentals of online safety, phishing
+              awareness, password hygiene, and secure device practices —
+              building everyday confidence in safe technology use and awareness
+              of future learning opportunities.
             </p>
           </CardContent>
         </Card>
@@ -48,10 +81,16 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <KeyRound className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">IT Support & Cybersecurity</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                IT Support & Cybersecurity
+              </h3>
             </div>
             <p className="text-gray-700">
-              We connect learners with optional online resources such as Google IT Support and Cybersecurity courses, supplemented by peer mentoring and individual coaching. These offerings focus on skill development, digital inclusion, and community empowerment, rather than credentialing or licensure.
+              We connect learners with optional online resources such as Google
+              IT Support and Cybersecurity courses, supplemented by peer
+              mentoring and individual coaching. These offerings focus on skill
+              development, digital inclusion, and community empowerment, rather
+              than credentialing or licensure.
             </p>
           </CardContent>
         </Card>
@@ -61,10 +100,15 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Code className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Intro to HTML & CSS</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Intro to HTML & CSS
+              </h3>
             </div>
             <p className="text-gray-700">
-              This beginner-friendly workshop introduces the basics of building and styling web pages using HTML and CSS. Learners explore page structure, images, navigation links, and simple design concepts — culminating in a personal project that builds creative confidence.
+              This beginner-friendly workshop introduces the basics of building
+              and styling web pages using HTML and CSS. Learners explore page
+              structure, images, navigation links, and simple design concepts —
+              culminating in a personal project that builds creative confidence.
             </p>
           </CardContent>
         </Card>
@@ -74,10 +118,16 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Terminal className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Intro to Programming with Python</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Intro to Programming with Python
+              </h3>
             </div>
             <p className="text-gray-700">
-              A hands-on introduction to programming concepts using Python, including variables, loops, conditionals, and functions. The course encourages problem-solving and creative thinking, with small-scale projects that apply skills in practical, non-commercial contexts.
+              A hands-on introduction to programming concepts using Python,
+              including variables, loops, conditionals, and functions. The
+              course encourages problem-solving and creative thinking, with
+              small-scale projects that apply skills in practical, non-commercial
+              contexts.
             </p>
           </CardContent>
         </Card>
@@ -87,10 +137,15 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Bot className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Prompt Engineering with ChatGPT</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Prompt Engineering with ChatGPT
+              </h3>
             </div>
             <p className="text-gray-700">
-              Learners explore how to use AI tools like ChatGPT for everyday tasks, creative projects, and productivity. The focus is on ethical use, prompt design, and evaluating AI output — fostering digital literacy in emerging technologies.
+              Learners explore how to use AI tools like ChatGPT for everyday
+              tasks, creative projects, and productivity. The focus is on
+              ethical use, prompt design, and evaluating AI output — fostering
+              digital literacy in emerging technologies.
             </p>
           </CardContent>
         </Card>
@@ -100,10 +155,14 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Folder className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Resume & Job Readiness</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Resume & Job Readiness
+              </h3>
             </div>
             <p className="text-gray-700">
-              Career exploration support including resume building, mock interviews, and guidance on navigating online applications — with connections to local workforce and community resources.
+              Career exploration support including resume building, mock
+              interviews, and guidance on navigating online applications — with
+              connections to local workforce and community resources.
             </p>
           </CardContent>
         </Card>
@@ -113,10 +172,15 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Wifi className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Equity Navigation</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Digital Equity Navigation
+              </h3>
             </div>
             <p className="text-gray-700">
-              We provide access to laptops, Wi-Fi hotspots, and assistive tools, along with guidance to connect with online services such as housing applications, benefits portals, reentry programs, and community centers.
+              We provide access to laptops, Wi-Fi hotspots, and assistive tools,
+              along with guidance to connect with online services such as
+              housing applications, benefits portals, reentry programs, and
+              community centers.
             </p>
           </CardContent>
         </Card>
@@ -126,10 +190,15 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <BookOpen className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Tutoring & Academic Skills</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Tutoring & Academic Skills
+              </h3>
             </div>
             <p className="text-gray-700">
-              Academic support in English, math, and introductory technical topics such as computer programming, data concepts, and basic networking — helping learners strengthen core skills for personal growth, continued education, or community projects.
+              Academic support in English, math, and introductory technical
+              topics such as computer programming, data concepts, and basic
+              networking — helping learners strengthen core skills for personal
+              growth, continued education, or community projects.
             </p>
           </CardContent>
         </Card>
@@ -139,10 +208,16 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2">
               <Server className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Tech Support Services</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                Tech Support Services
+              </h3>
             </div>
             <p className="text-gray-700">
-              Through our community IT support initiative, learners assist with troubleshooting common computer and networking issues — such as setup, virus removal, and Wi-Fi configuration — in a supervised, educational setting that reinforces skills while serving the community.
+              Through our community IT support initiative, learners assist with
+              troubleshooting common computer and networking issues — such as
+              setup, virus removal, and Wi-Fi configuration — in a supervised,
+              educational setting that reinforces skills while serving the
+              community.
             </p>
           </CardContent>
         </Card>
