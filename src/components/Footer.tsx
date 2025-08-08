@@ -49,7 +49,7 @@ export default function Footer() {
                 <div>
                     <h3 className="text-md font-semibold mb-2">Disclaimer</h3>
                     <p >
-                        Central Coast Tech & Career Academy (CCTCA) is a 501(c)(3) nonprofit public benefit organization. The term “Academy” in our name reflects our community-based learning approach and does not indicate operation as a state-licensed postsecondary institution. All instructional programs are offered as part of our broader charitable mission to advance digital equity, workforce participation, and community empowerment.
+                        Central Coast Tech & Career Academy (CCTCA) is a California nonprofit public benefit corporation recognized as a 501(c)(3) charitable organization. CCTCA is not licensed by the California Bureau for Private Postsecondary Education and operates under the exemption set forth in California Education Code §94874(f). Our instructional programs are non-degree, offered at total charges not exceeding $2,500 per student in any 12-month period, and do not accept state or federal student financial aid.
                     </p>
                 </div>
             </div>

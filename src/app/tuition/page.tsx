@@ -1,52 +1,56 @@
 // app/tuition/page.tsx
-import type { Metadata } from "next";
-import Script from "next/script";
+
+
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "Tuition & Accessibility Policy | Central Coast Tech & Career Academy",
+  title: 'Tuition & Policies | CCTCA',
   description:
-    "CCTCA tuition is cost-recovery only with sliding scale and scholarships. No individual is denied participation due to inability to pay.",
+    'CCTCA tuition & policies for CA Ed. Code §94874(f): annual cap of $2,500 per student (tuition+fees+required materials), no state or federal student aid, scholarships available.',
   openGraph: {
-    title: "Tuition & Accessibility Policy",
+    title: 'Tuition & Policies | CCTCA',
     description:
-      "Cost-recovery tuition, sliding scale, scholarships—no one denied for inability to pay.",
-    url: "https://yourdomain.org/tuition",
-    type: "article",
+      'Annual cap $2,500 per student (all charges), no state/federal aid, scholarships & sliding scale available.',
+    url: 'https://yourdomain.org/tuition',
+    type: 'article',
   },
 };
 
-export default function TuitionPolicyPage() {
-  const lastUpdated = "August 8, 2025";
+export default function TuitionPoliciesPage() {
+  const lastUpdated = 'August 8, 2025';
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12 sm:py-16">
-      {/* JSON-LD for a public policy page */}
-      <Script id="tuition-policy-ld" type="application/ld+json">
+    <main className="mx-auto max-w-4xl px-6 py-12 md:py-16">
+      {/* JSON-LD */}
+      <Script id="tuition-policies-jsonld" type="application/ld+json">
         {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          name: "Tuition & Accessibility Policy",
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: 'Tuition & Policies',
           description:
-            "CCTCA tuition is cost-recovery only with sliding scale and scholarships. No individual is denied participation due to inability to pay.",
-          url: "https://yourdomain.org/tuition",
+            'CCTCA tuition policy consistent with CA Ed. Code §94874(f): cap $2,500 per student/year (tuition+fees+required materials), no state/federal student financial aid; scholarships available.',
+          url: 'https://yourdomain.org/tuition',
+          dateModified: '2025-08-08',
           isPartOf: {
-            "@type": "Organization",
-            name: "Central Coast Tech & Career Academy",
+            '@type': 'Organization',
+            name: 'Central Coast Tech & Career Academy',
           },
-          dateModified: "2025-08-08",
         })}
       </Script>
 
+      {/* Header */}
       <header className="mb-8">
         <p className="text-sm font-medium text-gray-500">Policy</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900">
-          Tuition & Accessibility Policy
+          Tuition & Policies
         </h1>
-        <p className="mt-3 text-gray-600">
+        <p className="mt-3 text-gray-700">
           Central Coast Tech & Career Academy (CCTCA) provides digital literacy,
-          cybersecurity awareness, and job-readiness instruction as part of our
-          broader charitable mission. Tuition—when charged—is solely to offset
-          program delivery costs. Scholarships are widely available.
+          cybersecurity awareness, and related learning opportunities for adult
+          learners. The policies below ensure clarity, affordability, and compliance with
+          California Education Code §94874(f).
         </p>
         <div className="mt-4 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs text-gray-600">
           <span className="h-2 w-2 rounded-full bg-emerald-500" />
@@ -54,139 +58,134 @@ export default function TuitionPolicyPage() {
         </div>
       </header>
 
-      <section className="space-y-8">
-        {/* Cost-Recovery Statement */}
-        <div className="rounded-lg border p-6">
-          <h2 className="text-xl font-semibold text-gray-900">Cost‑Recovery Tuition</h2>
-          <p className="mt-2 text-gray-700">
-            CCTCA may charge modest tuition strictly to offset direct program
-            costs (e.g., instructional materials, technology access, and
-            facility usage). Tuition is set on a <strong>cost‑recovery</strong> basis and is
-            <strong> not</strong> intended to generate profit.
-          </p>
-        </div>
+      {/* Compliance summary */}
+      <section className="mb-8 rounded-lg border bg-emerald-50 p-5">
+        <h2 className="text-lg font-semibold text-gray-900">
+          Key Compliance Facts (Ed. Code §94874(f))
+        </h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-gray-800">
+          <li>
+            <strong>Annual cap:</strong> No student is charged more than{' '}
+            <strong>$2,500 per 12-month period</strong>, inclusive of{' '}
+            <em>tuition, fees, and required materials</em>.
+          </li>
+          <li>
+            <strong>No state or federal student financial aid:</strong> CCTCA
+            does <em>not</em> accept Pell Grants, Cal Grants, Title IV, or similar
+            programs.
+          </li>
+          <li>
+            <strong>Affordability:</strong> Sliding scale and scholarships are available.
+          </li>
+        </ul>
+      </section>
 
-        {/* Sliding Scale & Scholarships */}
-        <div className="rounded-lg border p-6">
-          <h2 className="text-xl font-semibold text-gray-900">
-            Sliding Scale & Scholarships
-          </h2>
-          <ul className="mt-3 list-disc space-y-2 pl-6 text-gray-700">
-            <li>
-              Sliding scale fees are available to ensure access for learners of
-              all income levels.
-            </li>
-            <li>
-              Full and partial scholarships are available for any participant
-              who is unable to pay the suggested tuition amount.
-            </li>
-            <li>
-              No detailed financial documentation is required; a short
-              scholarship request form protects dignity and privacy.
-            </li>
+      {/* Tuition details */}
+      <section className="space-y-6">
+        <h2 className="text-xl font-semibold text-gray-900">Tuition Details</h2>
+
+        <div className="rounded-lg border p-5">
+          <h3 className="font-medium text-gray-900">Maximum Charges</h3>
+          <p className="mt-2 text-gray-700">
+            The <strong>total amount a student can be charged</strong> by CCTCA in any
+            12-month period is capped at <strong>$2,500</strong>. This cap includes:
+          </p>
+          <ul className="mt-2 list-disc space-y-1 pl-6 text-gray-700">
+            <li>Tuition</li>
+            <li>All institutional fees (e.g., registration or tech fees)</li>
+            <li>Required materials (e.g., required workbooks or access codes)</li>
           </ul>
         </div>
 
-        {/* No Denial Clause */}
-        <div className="rounded-lg border p-6 bg-emerald-50">
-          <h2 className="text-xl font-semibold text-gray-900">No Denial Policy</h2>
-          <p className="mt-2 text-gray-800">
-            <strong>
-              No individual will be denied participation in any CCTCA program
-              due to inability to pay tuition.
-            </strong>
-          </p>
-        </div>
-
-        {/* How to Request Aid */}
-        <div className="rounded-lg border p-6">
-          <h2 className="text-xl font-semibold text-gray-900">How to Request Aid</h2>
-          <ol className="mt-3 list-decimal space-y-2 pl-6 text-gray-700">
-            <li>
-              Indicate your need for a waiver or scholarship on the enrollment
-              form (or contact us directly).
-            </li>
-            <li>
-              A staff member will confirm your enrollment and applicable tuition
-              support within 2–3 business days.
-            </li>
-            <li>
-              If a class is full, you may be placed on a priority waitlist for
-              the next cohort.
-            </li>
-          </ol>
-          <p className="mt-3 text-gray-700">
-            Questions? Email{" "}
-            <a
-              href="mailto:admin@cctechacademy.com"
-              className="font-medium text-emerald-700 underline underline-offset-2"
-            >
-              admin@cctechacademy.com
-            </a>
-            .
-          </p>
-        </div>
-
-        {/* Where Policy Appears */}
-        <div className="rounded-lg border p-6">
-          <h2 className="text-xl font-semibold text-gray-900">Where This Policy Appears</h2>
+        <div className="rounded-lg border p-5">
+          <h3 className="font-medium text-gray-900">Scholarships & Sliding Scale</h3>
           <p className="mt-2 text-gray-700">
-            This policy is publicly posted on our website and included in our
-            brochures and enrollment materials. Program pages include a short
-            summary with a link back to this full policy.
+            CCTCA offers <strong>sliding-scale tuition</strong> and{' '}
+            <strong>full or partial scholarships</strong> based on financial need.
+            Scholarship awards reduce the amount owed by the student and always
+            remain within the $2,500 annual cap.
           </p>
         </div>
 
-        {/* Data & Transparency */}
-        <div className="rounded-lg border p-6">
-          <h2 className="text-xl font-semibold text-gray-900">Transparency</h2>
+        <div className="rounded-lg border p-5">
+          <h3 className="font-medium text-gray-900">No State or Federal Aid</h3>
           <p className="mt-2 text-gray-700">
-            CCTCA tracks the percentage of participants receiving free or
-            reduced tuition each year to demonstrate accessibility and public
-            benefit. Aggregated data may be shared in reports or on this page.
+            To remain compliant with §94874(f), CCTCA does <em>not</em> accept
+            state or federal student financial aid (including Pell Grants, Cal Grants,
+            or Title IV funds). Students may still seek community grants, employer
+            sponsorships, or charitable support outside of state/federal aid programs.
           </p>
         </div>
 
-        {/* FAQ */}
-        <div className="rounded-lg border p-6">
-          <h2 className="text-xl font-semibold text-gray-900">FAQ</h2>
-          <div className="mt-4 space-y-6">
-            <div>
-              <h3 className="font-medium text-gray-900">
-                Do I have to apply separately for a scholarship?
-              </h3>
-              <p className="mt-1 text-gray-700">
-                No. You can request a waiver or scholarship within the standard
-                enrollment form or by contacting staff. We keep it simple and
-                fast.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-medium text-gray-900">
-                Will requesting a scholarship affect my chance of enrolling?
-              </h3>
-              <p className="mt-1 text-gray-700">
-                No. Enrollment decisions are not based on ability to pay.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-medium text-gray-900">
-                Are there any fees for government‑funded learners?
-              </h3>
-              <p className="mt-1 text-gray-700">
-                Learners funded by certain programs (e.g., WIOA Title II) may
-                not be charged fees per applicable policy. Ask staff for
-                details.
-              </p>
-            </div>
-          </div>
+        <div className="rounded-lg border p-5">
+          <h3 className="font-medium text-gray-900">Payment & Refunds</h3>
+          <p className="mt-2 text-gray-700">
+            Payment schedules and any refunds (if offered) are detailed in the{' '}
+            <Link href="/enrollment" className="underline underline-offset-2">
+              Enrollment Agreement
+            </Link>
+            . Charges listed there always respect the $2,500 cap.
+          </p>
         </div>
       </section>
 
-      <footer className="mt-10 border-t pt-6 text-sm text-gray-600">
+      {/* How to request aid */}
+      <section className="mt-10 space-y-4 rounded-lg border p-5">
+        <h2 className="text-xl font-semibold text-gray-900">How to Request Scholarship Support</h2>
+        <ol className="mt-1 list-decimal space-y-2 pl-6 text-gray-700">
+          <li>Indicate scholarship or sliding-scale need on the enrollment form.</li>
+          <li>Staff confirm eligibility and finalize your payment plan within 2–3 business days.</li>
+          <li>If a class is full, you may be placed on a waitlist for the next cohort.</li>
+        </ol>
+        <p className="text-gray-700">
+          Questions? Email{' '}
+          <a
+            href="mailto:admin@cctechacademy.com"
+            className="font-medium text-emerald-700 underline underline-offset-2"
+          >
+            admin@cctechacademy.com
+          </a>
+          .
+        </p>
+      </section>
+
+      {/* FAQ */}
+      <section className="mt-10 space-y-6">
+        <h2 className="text-xl font-semibold text-gray-900">FAQ</h2>
+
+        <div className="rounded-lg border p-5">
+          <h3 className="font-medium text-gray-900">Does the $2,500 cap include materials?</h3>
+          <p className="mt-1 text-gray-700">
+            Yes. The cap includes <em>all</em> institutional charges a student might pay to CCTCA
+            in a 12-month period: tuition, fees, and required materials.
+          </p>
+        </div>
+
+        <div className="rounded-lg border p-5">
+          <h3 className="font-medium text-gray-900">
+            Can I use Pell Grants or Cal Grants to pay CCTCA?
+          </h3>
+          <p className="mt-1 text-gray-700">
+            No. To qualify for §94874(f), CCTCA does not accept state or federal student financial aid.
+          </p>
+        </div>
+
+        <div className="rounded-lg border p-5">
+          <h3 className="font-medium text-gray-900">
+            Will requesting a scholarship affect my chance of enrolling?
+          </h3>
+          <p className="mt-1 text-gray-700">
+            No. Enrollment decisions are not based on ability to pay. Scholarships reduce your
+            charges but do not change the $2,500 annual maximum.
+          </p>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="mt-12 border-t pt-6 text-sm text-gray-600">
         <p>Last updated: {lastUpdated}</p>
         <p className="mt-1">
-          For accessible formats, email{" "}
+          For accessible formats, email{' '}
           <a
             href="mailto:admin@cctechacademy.com"
             className="font-medium text-emerald-700 underline underline-offset-2"
