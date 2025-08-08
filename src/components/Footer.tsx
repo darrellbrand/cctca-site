@@ -45,6 +45,12 @@ export default function Footer() {
                         <li><a href="/conduct/" className="hover:text-blue-600">Code of Conduct</a></li>
                     </ul>
                 </div>
+                <div>
+                    <h3 className="text-md font-semibold mb-2">Disclaimer</h3>
+                    <p >
+                         Central Coast Tech & Career Academy (CCTCA) is a 501(c)(3) nonprofit public benefit organization. The term “Academy” in our name reflects our community-based learning approach and does not indicate operation as a state-licensed postsecondary institution. All instructional programs are offered as part of our broader charitable mission to advance digital equity, workforce participation, and community empowerment.
+                    </p>
+                </div>
             </div>
         </footer>
     );
