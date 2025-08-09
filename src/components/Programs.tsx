@@ -74,9 +74,7 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">IT Support & Cybersecurity (Google Career Certificates)</h3>
             </div>
             <p className="text-gray-700">
-              Facilitated access to the Google IT Support and Google Cybersecurity Certificates via Coursera,
-              with mentorship, study labs, and coaching from CCTCA. Certificates are issued directly by Google
-              (via Coursera). Offered for skill-building and career exploration; not a CCTCA-issued credential.
+             Facilitated access to the Google IT Support and Google Cybersecurity Certificates via Coursera, with mentorship, study labs, and coaching from CCTCA. Certificates are issued directly by Google (via Coursera), not by CCTCA. This program is not designed for state licensure preparation and is offered solely for skill-building and career exploration in alignment with California Education Code §94874(f).
             </p>
           </CardContent>
         </Card>
