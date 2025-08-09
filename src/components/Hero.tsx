@@ -13,7 +13,7 @@ export default function Hero() {
 
       <div className="w-full h-full">
         <img
-          src="/lab5.jpg"
+          src="/lab5-min.jpg"
           alt="CCTCA Lab"
           className="w-full h-full object-cover object-center"
         />
