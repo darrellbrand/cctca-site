@@ -121,7 +121,7 @@ export default function TuitionPoliciesPage() {
           <h3 className="font-medium text-gray-900">Payment & Refunds</h3>
           <p className="mt-2 text-gray-700">
             Payment schedules and any refunds (if offered) are detailed in the{' '}
-            <Link href="/enrollment/" className="underline underline-offset-2">
+            <Link href="/enrollment/" className="underline underline-offset-2  text-emerald-700">
               Enrollment Agreement
             </Link>
             . Charges listed there always respect the $2,500 cap.
