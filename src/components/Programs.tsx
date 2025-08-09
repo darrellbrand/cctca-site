@@ -17,10 +17,8 @@ export default function ProgramsSection() {
         <p className="text-gray-700 text-lg leading-relaxed">
           CCTCA offers digital literacy, technology awareness, and career exploration
           programs for adult learners across the Central Coast. We deliver affordable,
-          hands-on training while complying with California Education Code §94874(f):
-          an annual cap of <strong>$2,500 per student</strong> (tuition + fees + required
-          materials), <strong>no state or federal student financial aid</strong>, and
-          <strong> scholarships/sliding scale</strong> options to keep learning accessible.
+          hands-on training while complying with California Education Code §94874(f),
+          with scholarships and sliding scale options to keep learning accessible for all.
         </p>
 
         {/* BPPE Tuition Policy Link */}
@@ -31,18 +29,6 @@ export default function ProgramsSection() {
           >
             View Our Tuition & Policies
           </Link>
-          <p className="mt-2 text-sm text-gray-700">
-            See the $2,500 annual cap, no-aid rule, and how scholarships/sliding scale work.
-          </p>
-        </div>
-
-        {/* Quick compliance callout */}
-        <div className="mx-auto mt-6 max-w-3xl rounded-md border border-emerald-200 bg-emerald-50 p-4 text-left">
-          <ul className="list-disc pl-5 text-sm text-emerald-900 space-y-1">
-            <li><strong>Cap:</strong> Total charges per student ≤ $2,500 per 12 months (tuition, fees, required materials).</li>
-            <li><strong>No Aid:</strong> We do not accept Pell Grants, Cal Grants, or other state/federal student aid.</li>
-            <li><strong>Access:</strong> Scholarships and sliding scale available based on need.</li>
-          </ul>
         </div>
       </div>
 

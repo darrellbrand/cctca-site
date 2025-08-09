@@ -8,9 +8,7 @@ export default function AboutSection() {
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About CCTCA</h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-8">
-          Central Coast Tech & Career Academy Inc. (CCTCA) is a California-based 501(c)(3) nonprofit dedicated to bridging the digital divide through inclusive, affordable workforce development. 
-          We operate in full compliance with California Education Code §94874(f), ensuring that no student is charged more than <strong>$2,500 per 12-month period</strong> for tuition, fees, and required materials, 
-          and we do not accept state or federal student financial aid. Our sliding scale and scholarship programs make high-quality training accessible to all qualifying learners.
+          Central Coast Tech & Career Academy Inc. (CCTCA) is a California-based 501(c)(3) nonprofit dedicated to bridging the digital divide through inclusive, affordable workforce development. We operate in compliance with California Education Code §94874(f). 
         </p>
       </div>
 
@@ -23,8 +21,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Mission</h3>
             </div>
             <p className="text-gray-700">
-              At CCTCA, our mission is to expand equitable access to technology skills, digital literacy, and career readiness. 
-              Through inclusive, hands-on learning integrated with wraparound community services, we empower underserved and underrepresented communities to navigate digital tools, explore career pathways, and strengthen their economic stability — all while keeping education affordable under the tuition cap set by §94874(f).
+              At CCTCA, our mission is to expand equitable access to technology skills, digital literacy, and career readiness. Through inclusive, hands-on learning integrated with wraparound community services, we empower underserved and underrepresented communities to navigate digital tools, explore career pathways, and strengthen their economic stability — all while keeping education affordable and accessible to all learners.
             </p>
           </CardContent>
         </Card>
@@ -37,10 +34,7 @@ export default function AboutSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Vision</h3>
             </div>
             <p className="text-gray-700">
-              We envision a future where every adult learner — regardless of background or circumstance — can access the 
-              digital fluency, technical knowledge, and real-world learning opportunities needed to thrive in a technology-driven economy. 
-              By offering programs that are affordable, accessible, and grounded in §94874(f) compliance, we remove cost barriers while 
-              building a more inclusive and adaptable workforce.
+              We envision a future where every adult learner — regardless of background or circumstance — can access the digital fluency, technical knowledge, and real-world learning opportunities needed to thrive in a technology-driven economy. By offering programs that are affordable, accessible, and rooted in high-quality standards, we remove cost barriers while building a more inclusive and adaptable workforce.
             </p>
           </CardContent>
         </Card>
@@ -68,7 +62,7 @@ export default function AboutSection() {
               <li>Project-based learning, mentorship, and individualized coaching with community support</li>
             </ul>
             <p className="mt-4 text-gray-700">
-              All offerings are provided under our <strong>§94874(f) tuition policy</strong>, ensuring costs never exceed $2,500 per student per year and that scholarships and sliding scale options keep education within reach for all.
+              All offerings are provided under our <strong>§94874(f) tuition policy</strong>.
             </p>
           </CardContent>
         </Card>
