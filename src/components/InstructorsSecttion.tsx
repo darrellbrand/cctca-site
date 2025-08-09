@@ -19,12 +19,20 @@ export default function InstructorsSection() {
         <Card className="w-full max-w-full min-w-0 overflow-hidden shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
           <CardContent className="p-6">
             <div className="flex items-center gap-4 mb-4 min-w-0">
-              {/* Use valid square size + Image fill for perfect circle */}
-              <div className="relative w-16 h-16 rounded-full overflow-hidden transition-transform duration-300 md:group-hover:scale-105">
-                <Image src="/darrell.jpg" alt="Instructor Darrell Friday" fill className="object-cover" sizes="64px" />
+              {/* Perfectly round avatar */}
+              <div className="relative w-26 h-26 flex-shrink-0 rounded-full overflow-hidden transition-transform duration-300 md:group-hover:scale-105">
+                <Image
+                  src="/darrell.jpg"
+                  alt="Instructor Darrell Friday"
+                  fill
+                  className="object-cover"
+                  sizes="80px"
+                />
               </div>
               <div className="min-w-0">
-                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-300">Darrell Friday</h3>
+                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-300">
+                  Darrell Friday
+                </h3>
                 <p className="text-sm text-gray-600">Technology Education & Software Engineering</p>
               </div>
             </div>
@@ -50,11 +58,19 @@ export default function InstructorsSection() {
         <Card className="w-full max-w-full min-w-0 overflow-hidden shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
           <CardContent className="p-6">
             <div className="flex items-center gap-4 mb-4 min-w-0">
-              <div className="relative w-16 h-16 rounded-full overflow-hidden transition-transform duration-300 md:group-hover:scale-105">
-                <Image src="/jonathan.png" alt="Instructor Jonathan Aguirre" fill className="object-cover" sizes="64px" />
+              <div className="relative w-26 h-26 flex-shrink-0 rounded-full overflow-hidden transition-transform duration-300 md:group-hover:scale-105">
+                <Image
+                  src="/jonathan.png"
+                  alt="Instructor Jonathan Aguirre"
+                  fill
+                  className="object-cover"
+                  sizes="80px"
+                />
               </div>
               <div className="min-w-0">
-                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-300">Jonathan Aguirre</h3>
+                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-300">
+                  Jonathan Aguirre
+                </h3>
                 <p className="text-sm text-gray-600">IT Support & Cybersecurity Education</p>
               </div>
             </div>
