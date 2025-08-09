@@ -15,19 +15,18 @@ export default function ProgramsSection() {
           Our Programs
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed">
-          CCTCA offers digital literacy, technology awareness, and career exploration
-          programs for adult learners across the Central Coast. We deliver affordable,
-          hands-on training while complying with California Education Code §94874(f),
-          with scholarships and sliding scale options to keep learning accessible for all.
+          CCTCA offers short-term, non-vocational digital literacy and technology awareness
+          programs for adult learners across the Central Coast. We deliver hands-on training in
+          alignment with California Education Code §94874(f) and our charitable nonprofit mission.
         </p>
 
-        {/* BPPE Tuition Policy Link */}
+        {/* BPPE Policies Link */}
         <div className="mt-6">
           <Link
             href="/tuition"
             className="inline-block rounded-lg bg-emerald-600 px-5 py-2.5 text-white font-semibold shadow hover:bg-emerald-700 transition-colors"
           >
-            View Our Tuition & Policies
+            View Our Policies & §94874(f)
           </Link>
         </div>
       </div>
@@ -45,10 +44,9 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Basics</h3>
             </div>
             <p className="text-gray-700">
-              An entry-level course covering essential computer skills such as typing, file
-              management, email, internet navigation, and Google Workspace tools — designed
-              to help adult learners build digital confidence for daily life, community
-              participation, and continued learning.
+              Entry-level digital literacy workshop covering typing, file management, email,
+              internet navigation, and Google Workspace. Designed to build everyday confidence for
+              personal tasks, community participation, and continued learning.
             </p>
           </CardContent>
         </Card>
@@ -61,46 +59,44 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Cybersecurity Foundations</h3>
             </div>
             <p className="text-gray-700">
-              Learners explore the fundamentals of online safety, phishing awareness, password
-              hygiene, and secure device practices — building everyday confidence in safe
-              technology use and awareness of future learning opportunities.
+              Everyday online safety skills including phishing awareness, password hygiene,
+              device security, and safe browsing habits—practical steps to protect yourself and
+              your community.
             </p>
           </CardContent>
         </Card>
 
-        {/* IT Support & Cybersecurity */}
+        {/* IT Support & Cybersecurity (Google Career Certificates) */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2 items-center">
               <KeyRound className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">IT Support & Cybersecurity</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">IT Support & Cybersecurity (Google Career Certificates)</h3>
             </div>
             <p className="text-gray-700">
-              We connect learners with optional online resources such as Google IT Support and
-              Cybersecurity courses, supplemented by peer mentoring and individual coaching.
-              These offerings focus on skill development, digital inclusion, and community
-              empowerment, rather than credentialing or licensure.
+              Facilitated access to the Google IT Support and Google Cybersecurity Certificates via Coursera,
+              with mentorship, study labs, and coaching from CCTCA. Certificates are issued directly by Google
+              (via Coursera). Offered for skill-building and career exploration; not a CCTCA-issued credential.
             </p>
           </CardContent>
         </Card>
 
-        {/* HTML & CSS */}
+        {/* Intro to HTML & CSS */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2 items-center">
               <Code className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Intro to HTML & CSS</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Intro to HTML &amp; CSS</h3>
             </div>
             <p className="text-gray-700">
-              This beginner-friendly workshop introduces the basics of building and styling web
-              pages using HTML and CSS. Learners explore page structure, images, navigation links,
-              and simple design concepts — culminating in a personal project that builds creative
-              confidence.
+              Beginner web workshop on page structure and styling. Learn headings, links, images,
+              layouts, and simple design concepts—culminating in a small personal project to build
+              creative confidence.
             </p>
           </CardContent>
         </Card>
 
-        {/* Python Programming */}
+        {/* Intro to Programming with Python */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2 relative">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2 items-center">
@@ -108,15 +104,14 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Intro to Programming with Python</h3>
             </div>
             <p className="text-gray-700">
-              A hands-on introduction to programming concepts using Python, including variables,
-              loops, conditionals, and functions. The course encourages problem-solving and
-              creative thinking, with small-scale projects that apply skills in practical,
-              non-commercial contexts.
+              Hands-on introduction to programming concepts—variables, loops, conditionals,
+              and functions—through small, practical projects that encourage problem-solving
+              and creativity.
             </p>
           </CardContent>
         </Card>
 
-        {/* Prompt Engineering */}
+        {/* Prompt Engineering with ChatGPT */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100 lg:col-span-2">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2 items-center">
@@ -124,9 +119,9 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Prompt Engineering with ChatGPT</h3>
             </div>
             <p className="text-gray-700">
-              Learners explore how to use AI tools like ChatGPT for everyday tasks, creative
-              projects, and productivity. The focus is on ethical use, prompt design, and
-              evaluating AI output — fostering digital literacy in emerging technologies.
+              Explore ethical and effective use of AI tools for writing, research, organization,
+              and creativity. Learn prompt design techniques and how to evaluate AI-generated
+              output to strengthen digital literacy.
             </p>
           </CardContent>
         </Card>
@@ -136,12 +131,12 @@ export default function ProgramsSection() {
           <CardContent className="p-6">
             <div className="flex flex-row gap-2 items-center">
               <Folder className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Resume & Job Readiness</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Resume &amp; Job Readiness</h3>
             </div>
             <p className="text-gray-700">
-              Career exploration support including resume building, mock interviews, and guidance
-              on navigating online applications — with connections to local workforce and
-              community resources.
+              Career preparation skills including resume building, mock interviews, and guidance for
+              navigating online applications—plus connections to local community resources. No job
+              placement is guaranteed.
             </p>
           </CardContent>
         </Card>
@@ -154,24 +149,24 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Equity Navigation</h3>
             </div>
             <p className="text-gray-700">
-              We provide access to laptops, Wi-Fi hotspots, and assistive tools, along with
-              guidance to connect with online services such as housing applications, benefits
-              portals, reentry programs, and community centers.
+              Access to laptops, Wi‑Fi hotspots, and assistive tools, plus guided support for
+              using essential online services such as benefits portals, housing applications,
+              reentry programs, and local community resources.
             </p>
           </CardContent>
         </Card>
 
-        {/* Academic Tutoring */}
+        {/* Tutoring & Academic Skills */}
         <Card className="shadow-sm border border-gray-200 bg-slate-100">
           <CardContent className="p-6">
             <div className="flex flex-row gap-2 items-center">
               <BookOpen className="text-blue-700" />
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Tutoring & Academic Skills</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Tutoring &amp; Academic Skills</h3>
             </div>
             <p className="text-gray-700">
-              Academic support in English, math, and introductory technical topics such as computer
-              programming, data concepts, and basic networking — helping learners strengthen core
-              skills for personal growth, continued education, or community projects.
+              One-on-one and small-group support in English, math, and introductory technical
+              topics (e.g., programming and basic networking) to strengthen foundational skills
+              for continued education or community projects.
             </p>
           </CardContent>
         </Card>
@@ -184,14 +179,23 @@ export default function ProgramsSection() {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Tech Support Services</h3>
             </div>
             <p className="text-gray-700">
-              Through our community IT support initiative, learners assist with troubleshooting
-              common computer and networking issues — such as setup, virus removal, and Wi-Fi
-              configuration — in a supervised, educational setting that reinforces skills while
-              serving the community.
+              Supervised, community-based learning where participants practice troubleshooting
+              common tech issues (setup, malware cleanup, Wi‑Fi configuration) in an educational
+              setting that reinforces skills while serving neighbors.
             </p>
           </CardContent>
         </Card>
+      </div>
 
+      {/* Compliance Notice */}
+      <div className="max-w-5xl mx-auto mt-10 text-sm text-gray-700">
+        <p>
+          <strong>Compliance Notice:</strong> All programs are short-term, non-vocational, and offered solely for
+          charitable purposes. CCTCA is not a degree-granting or state-licensed institution and operates in
+          compliance with California Education Code §94874(f). Certificates, when applicable, are issued by the
+          original provider (e.g., Google via Coursera), not CCTCA. No licensure preparation or job placement is
+          offered or implied.
+        </p>
       </div>
     </section>
   );
