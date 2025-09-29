@@ -12,7 +12,7 @@ RUN npm run build
 FROM nginx:alpine
 
 # Install dockerize
-ENV DOCKERIZE_VERSION v0.6.1
+ENV DOCKERIZE_VERSION=v0.6.1
 RUN apk add --no-cache curl && \
     curl -sSL https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-alpine-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
     | tar -C /usr/local/bin -xzv
