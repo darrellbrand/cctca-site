@@ -14,7 +14,7 @@ export default function InstructorsSection() {
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto w-full">
+      <div className="grid gap-6 md:grid-cols-1 max-w-5xl mx-auto w-full">
         {/* Darrell */}
         <Card className="w-full max-w-full min-w-0 overflow-hidden shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
           <CardContent className="p-6">
@@ -49,45 +49,6 @@ export default function InstructorsSection() {
               <div className="flex items-center space-x-3 min-w-0">
                 <Phone className="w-5 h-5 flex-shrink-0 text-blue-700 md:group-hover:text-blue-900" />
                 <span className="min-w-0 break-words text-gray-800">(820) 380-8067</span>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Jonathan */}
-        <Card className="w-full max-w-full min-w-0 overflow-hidden shadow-sm border border-gray-200 bg-slate-100 group transition-all duration-300 hover:shadow-lg hover:border-blue-400">
-          <CardContent className="p-6">
-            <div className="flex items-center gap-4 mb-4 min-w-0">
-              <div className="relative w-26 h-26 flex-shrink-0 rounded-full overflow-hidden transition-transform duration-300 md:group-hover:scale-105">
-                <Image
-                  src="/jonathan.png"
-                  alt="Instructor Jonathan Aguirre"
-                  fill
-                  className="object-cover"
-                  sizes="80px"
-                />
-              </div>
-              <div className="min-w-0">
-                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-300">
-                  Jonathan Aguirre
-                </h3>
-                <p className="text-sm text-gray-600">IT Support & Cybersecurity Education</p>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2">
-              <p className="text-gray-700">
-                Jonathan has a background in IT support and digital safety education. He guides learners through foundational
-                cybersecurity practices, practical troubleshooting, and community-based tech projects. For participants who wish to
-                pursue external certifications or advanced study, Jonathan offers general learning support and encouragement — while
-                keeping CCTCA’s focus on skill-building and digital empowerment.
-              </p>
-              <div className="flex items-center space-x-3 min-w-0">
-                <Mail className="w-5 h-5 flex-shrink-0 text-blue-700 md:group-hover:text-blue-900" />
-                <span className="min-w-0 break-words text-gray-800">jonathan.aguirre@cctechacademy.com</span>
-              </div>
-              <div className="flex items-center space-x-3 min-w-0">
-                <Phone className="w-5 h-5 flex-shrink-0 text-blue-700 md:group-hover:text-blue-900" />
-                <span className="min-w-0 break-words text-gray-800">(805) 574-5651</span>
               </div>
             </div>
           </CardContent>
